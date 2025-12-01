@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunstar Hotel & Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header / Nav -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Sunstar</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#rooms">Rooms</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero / Banner -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Welcome to Sunstar Hotel</h1>
+      <p>Comfort • Luxury • Hospitality</p>
+      <a href="#contact" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Rooms / Accommodation -->
+  <section id="rooms" class="rooms-section">
+    <h2>Our Rooms</h2>
+    <div class="room-cards">
+      <div class="room-card">
+        <img src="room1.jpg" alt="Deluxe Room" />
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with all amenities.</p>
+        <span class="price">₹2,000 / night</span>
+      </div>
+      <div class="room-card">
+        <img src="room2.jpg" alt="Premium Room" />
+        <h3>Premium Room</h3>
+        <p>Best comfort for couples.</p>
+        <span class="price">₹3,000 / night</span>
+      </div>
+      <div class="room-card">
+        <img src="room3.jpg" alt="Suite Room" />
+        <h3>Suite</h3>
+        <p>Luxury suite with extra space & services.</p>
+        <span class="price">₹5,000 / night</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services / Amenities -->
+  <section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-list">
+      <div class="service-item">Free WiFi</div>
+      <div class="service-item">24/7 Room Service</div>
+      <div class="service-item">Restaurant & Dining</div>
+      <div class="service-item">Laundry Service</div>
+      <div class="service-item">Parking</div>
+      <div class="service-item">Airport Pickup</div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-grid">
+      <img src="hotel1.jpg" alt="Hotel Exterior" />
+      <img src="hotel2.jpg" alt="Hotel Lobby" />
+      <img src="hotel3.jpg" alt="Room Interior" />
+      <img src="hotel4.jpg" alt="Dining Area" />
+      <img src="hotel5.jpg" alt="Hotel Surroundings" />
+    </div>
+  </section>
+
+  <!-- Contact / Booking form -->
+  <section id="contact" class="contact-section">
+    <h2>Contact & Booking</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <p><strong>Address:</strong> HARSH ANTRI ROAD ANTRI SIKAR RAJASTHAN</p>
+        <p><strong>Phone/WhatsApp:</strong> +91-8000029533</p>
+        <p><strong>Email:</strong> info@sunstarhotel.com</p>
+      </div>
+      <form class="booking-form">
+        <h3>Book a Room</h3>
+        <label>Name</label><input type="text" name="name" required />
+        <label>Email</label><input type="email" name="email" required />
+        <label>Phone / WhatsApp</label><input type="text" name="phone" required />
+        <label>Check-in Date</label><input type="date" name="checkin" required />
+        <label>Check-out Date</label><input type="date" name="checkout" required />
+        <label>Room Type</label>
+        <select name="roomtype">
+          <option>Deluxe</option>
+          <option>Premium</option>
+          <option>Suite</option>
+        </select>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Sunstar Hotel. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
